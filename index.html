@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+    <title>Rock Paper Scissors</title>
+  </head>
+  <body>
+    <h1>Rock Paper Scissors!</h1>
+    <h2 class="instruction-text">Choose your hand to start</h2>
+    <h2 class="score-text">Score: 0-0</h2>
+    <div class="game">
+      <div class="player-div human-player" id="">
+        <img src="images/rock-real.png" alt="" />
+        <p>You</p>
+      </div>
+      <div class="player-div ai-player" id="">
+        <img src="images//scissors-real.png" alt="" />
+        <p>AI (super intelligent)</p>
+      </div>
+    </div>
+    <div class="hand-options">
+      <ul>
+        <li>
+          <img
+            class="human-option"
+            id="rock"
+            src="images/rock-real.png"
+            alt=""
+          />
+        </li>
+        <li>
+          <img
+            class="human-option"
+            id="paper"
+            src="images/paper-real.png"
+            alt=""
+          />
+        </li>
+        <li>
+          <img
+            class="human-option"
+            id="scissors"
+            src="images/scissors-real.png"
+            alt=""
+          />
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
